@@ -1,3 +1,8 @@
+*{
+    opacity:1;
+transition: 1s;
+}
+
 html{
     margin: 0;
     padding: 0;
@@ -132,4 +137,26 @@ h1{
     text-decoration: none;
     border-bottom: 1px solid #c4b6904d;
     transition: all .3s;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  
+  .container1 div {
+    letter-spacing: -1px;
+    width: 25em;
+  }
+.main-container{
+    color: #fff;
+    margin-top: 400px;
+}
+.container1 div:first-child{
+    text-align: right;
+    padding-right: 100px;
+    color:#c7ae7f;
 }
